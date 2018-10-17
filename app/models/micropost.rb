@@ -21,5 +21,4 @@ class Micropost < ApplicationRecord
     self.favorites.include?(other_user)
     
   end  
-
 end
