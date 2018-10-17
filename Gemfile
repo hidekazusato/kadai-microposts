@@ -62,3 +62,7 @@ group :development do
 end
 
 gem 'byebug'
+
+group :production do
+  gem 'pg', '0.21.0'
+end
