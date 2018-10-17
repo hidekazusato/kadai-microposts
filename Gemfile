@@ -53,3 +53,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'kaminari'
+
+gem 'pry-byebug', group: :development
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+end
+
+gem 'byebug'
